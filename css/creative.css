@@ -484,3 +484,7 @@ body {
     text-align: center;
     margin: 0 10%;
 }
+
+#sampic {
+    clear:both;
+}
