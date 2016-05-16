@@ -486,5 +486,5 @@ body {
 }
 
 .sampic {
-    float:left !important;
+    margin: 0 auto !important;
 }
