@@ -486,6 +486,5 @@ body {
 }
 
 #sampic {
-    clear:both;
-    text-align:center;
+    float:right;
 }
