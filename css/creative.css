@@ -477,14 +477,14 @@ body {
 
 .mfizz {
   font-size: 4em;
-  margin-bottom: -15px;
+  margin-bottom: -35px;
 }
 
 #bio {
     text-align: center;
-    margin: 0 10%;
+    margin: -20px 10%;
 }
 
 .sampic {
-    margin: -400px auto 40px auto !important;
+    margin: 0 auto 40px auto;
 }
