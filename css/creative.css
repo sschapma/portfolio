@@ -479,3 +479,8 @@ body {
   font-size: 4em;
   margin-bottom: -15px;
 }
+
+#bio {
+    text-align: center;
+    margin: 0 10%;
+}
