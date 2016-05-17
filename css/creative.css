@@ -478,7 +478,7 @@ body {
 
 .mfizz {
   font-size: 4em;
-  margin-bottom: -35px !important;
+  margin-bottom: -135px !important;
 }
 
 #bio {
@@ -488,4 +488,8 @@ body {
 
 .sampic {
     margin: 0 auto 40px auto;
+}
+
+.projects {
+  margin-top: 30px;
 }
