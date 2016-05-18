@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 html,
 body {
     width: 100%;
@@ -512,13 +506,18 @@ body {
 
 .social {
   margin-top: 50px;
-  font-size:4em;
+  width: 70%;
+  font-size:3em;
+  background-color:#F05F40;
+  border-radius: 20px;
 }
 
-.social ul{
-  list-style-type: none;
+.social i {
+	color:#FFA390;
 }
 
-.social ul li {
-  display:inline;
+.social i:hover {
+	cursor: pointer;
+	font-size:120%;
+	color: white;
 }
