@@ -289,20 +289,20 @@ header .header-content .header-content-inner p {
     transform: translateY(-50%);
 }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-description,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     padding: 0 15px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    text-transform: uppercase;
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-description {
     font-size: 14px;
     font-weight: 600;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 18px;
+    text-decoration: underline;
 }
 
 .portfolio-box:hover .portfolio-box-caption {
@@ -310,7 +310,7 @@ header .header-content .header-content-inner p {
 }
 
 @media(min-width:768px) {
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-description {
         font-size: 16px;
     }
 
@@ -478,6 +478,11 @@ body {
 
 .mfizz {
   font-size: 4em;
+  margin-right: -8px;
+}
+
+.db {
+  margin-right: -18px;
 }
 
 #bio {
@@ -507,6 +512,7 @@ body {
 
 .social {
   margin-top: 50px;
+  font-size:4em;
 }
 
 .social ul{
@@ -515,6 +521,4 @@ body {
 
 .social ul li {
   display:inline;
-  margin-right: 50px;
-  font-size:4em;
 }
